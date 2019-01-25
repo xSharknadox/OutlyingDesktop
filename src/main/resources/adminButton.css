@@ -1,0 +1,7 @@
+.admin-active{
+    -fx-background-color: #0000FF;
+}
+
+.admin-passive{
+    -fx-background-color: #C0C0C0;
+}

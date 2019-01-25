@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240.0" prefWidth="240.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.MainLoginController">
+   <children>
+      <Pane prefHeight="240.0" prefWidth="240.0">
+         <children>
+            <Button fx:id="enterToDepartment" layoutX="30.0" layoutY="35.0" mnemonicParsing="false" onAction="#enterToDepartment" prefHeight="25.0" prefWidth="240.0" text="Вхід до ресторану" />
+            <Button fx:id="enterToRestaurant" layoutX="30.0" layoutY="70.0" mnemonicParsing="false" onAction="#enterToRestaurant" prefHeight="25.0" prefWidth="240.0" text="Вхід до мережі ресторанів" />
+            <Button fx:id="registerRestaurant" layoutX="30.0" layoutY="105.0" mnemonicParsing="false" onAction="#registerRestaurant" prefHeight="25.0" prefWidth="240.0" text="Реєстрація нової мережі ресторанів"/>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
